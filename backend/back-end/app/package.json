@@ -1,0 +1,22 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www.env.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "bin": {
+    "index": "bin/www.env.js"
+  },
+  "description": ""
+}
